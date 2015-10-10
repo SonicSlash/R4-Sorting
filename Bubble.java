@@ -1,7 +1,7 @@
 package ru.sonic;
 
 
-public class Bubble{
+public class Bubble {
     public static void main(String[] args) {
         String arr[] = {"Hi", "hatty", "you", "are", "well", "come", "to", "my", "smoke", "freak"};
         printArr(arr);
@@ -14,11 +14,13 @@ public class Bubble{
         }
         printArr(arr);
     }
+
     public static void swap(String[] array, int i, int j) {
         String temp = array[i];
         array[i] = array[j];
         array[j] = temp;
     }
+
     public static void printArr(String[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
